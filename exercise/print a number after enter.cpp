@@ -34,7 +34,9 @@ int main()
 	for (int i = doo - 1; i >= 0; i--)
 	{
 		c = _getch();
-		if (c == 13 || c == 32)
+		if (c == 32 || c == 13)
+			// 13 == enter
+			// 32 == spacebar
 		{
 			it = card.begin();
 
