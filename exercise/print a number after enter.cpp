@@ -17,6 +17,7 @@ void draw_Card()
 
 int main()
 {
+	cout << "세트수를 입력하시오 : ";
 	int doo = 0;
 	cin >> doo;
 
